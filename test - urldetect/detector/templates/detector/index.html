@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+	<title>MALICIOUS URL DETECTION USING MACHINE LEARNING</title>
+
+	{% load staticfiles %}
+	<link href="{% static "bootstrap.min.css" %}" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" type="text/css" href= "{% static "style.css" %}">
+</head>
+
+
+<body>
+
+<div class="full_body">
+	<div class="jumbotron text-center  alert alert-danger" >
+        <h1>MALICIOUS URL DETECTION</h1>
+		<h2>Using Machine Learning</h2>
+    </div>
+	<div class="main_body">
+		
+		<form id="form1" method="post">
+			{% csrf_token %}
+			<h2 id="text1" align="center">Enter the Full URL below (or copy and Paste it here)</h2>
+			
+			<input type="text" name="web_url" size="110">
+			
+			<button name="check_url" id="checker" onclick="myFunction()">Check URL</button>
+			
+		</form>
+		<div class="preload">
+				<img id ="wait" src="http://i.imgur.com/KUJoe.gif" style="height: 50px; width: 50px;">
+		</div>
+
+		
+		<div id="myDIV">
+			<br>
+			<h4 id="url">{{ url }}</h4>
+
+			{% if color == "black" %}
+				<h2 id="result" style="color: black"> {{msg}} </h2>
+			{% elif color == "green" %}
+				<h2 id="result" style="color: green"> {{msg}} </h2>
+			{% elif color == "red" %}
+				<h2 id="result" style="color: red"> {{msg}} </h2>
+			
+			{% else %}
+				<h2 id="result" style="color: orange"> {{msg}} </h2>
+
+			{% endif %}
+		</div>
+         
+	</div>
+
+	<div class="footer">
+		<p style="color: white; font-size: 16px;">Krushna Borkar 14007024     Shraddha Borle 14007031     Dhruv Agrawal 14007052      Prabhat Bisen 14007053</p>
+	</div>
+</div>
+
+<script>
+    function myFunction() {
+    var x = document.getElementById("myDIV");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+    } else {
+        x.style.display = "none";
+    }
+}
+</script>
+
+
+</body>
+</html>
