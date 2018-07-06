@@ -28,6 +28,9 @@ Titanic: Machine Learning from Disaster is a knowledge competition on Kaggle. It
 ### 2. Big Mart Sales Predictions
 Big Mart Sales Predictions data set contains data for 1559 products across 10 stores in different cities.I have built a predictive model and find out the sales of each product at a particular store.This problem is good for introdution to feature engineering __[Here](https://www.kaggle.com/kvborkar100/big-mart-sales-prediction)__ is the Kernel.
 
+### 3. House Prices: Advanced Regression Techniques
+House Prices: Advanced Regression Techniques is the knowledge competition on Kaggle. Thedataset contains many large number of features.This dataset has given me opportunity for feature transformation and data visualization. __[Here](https://www.kaggle.com/kvborkar100/house-prices-prediction)__ is my kernel
+
 ## Machine Learning
 
 ### 1. __[Restaurant Reviews classification using Natural Language processing](https://github.com/kvborkar100/Data_Science_Portfolio/blob/master/Restaurant%20Reviews%20classification%20using%20NLP.ipynb)__
