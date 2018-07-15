@@ -22,7 +22,7 @@ Exploratory Data Analysis of the 911 calls dataset hosted on Kaggle. Demonstrate
 Complete Data Analysis of dataset containing more than 24 milion rows for speed testcarried out in different states in India with diffrerent technologies. Dataset is obtained from __[Open Government Data (OGD) Platform India](https://data.gov.in/)__<br>
 You can find this dataset __[Here](https://data.gov.in/catalog/myspeed-crowdsourced-mobile-data-speeds)__
 
-### 3. Soccer Data Analysis
+### 3. __[Soccer Data Analysis](https://github.com/kvborkar100/Data_Science_Portfolio/blob/master/Soccer%20Data%20Analysis.ipynb)__
 This analysis is my minor project for course Python for Data science UCSanDiego edX. I have used an open dataset from Kaggle. This __[European Soccer Database](https://www.kaggle.com/hugomathien/soccer)__ has more than 25,000 matches and more than 10,000 players for European professional soccer seasons from 2008 to 2016.I have used only players table to get a specific insight from data.
 
 ## Kaggle Kernels
