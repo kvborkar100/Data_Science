@@ -9,9 +9,11 @@ A phishing website detector(webapp) based on Random Forest algorithm. User have 
 
 Tools : Python, scikit-learn, matplotlib, Django
 ### 2. __[Amazon Reviews Sentiment Analysis](https://github.com/kvborkar100/Data_Science_Portfolio/tree/master/Sentiment%20Analysis%20Amazon%20Reviews)__
-Sentiment analysis for Amazon reviews is done using the reviews obtained from users about different products on amazon.com. The dataset consist of 3.6 million training reviews and 400k testing reviews. The is built using 80k reviews and testing is ddone on 20k reviews. Ensembling Learning (VotingClassifier) is used to train model with 5 different Classifiers giving accuracy of 87%. __[Dataset](https://www.kaggle.com/bittlingmayer/amazonreviews)__
+Sentiment analysis for Amazon reviews is done using the reviews obtained from users about different products on amazon.com. The dataset consist of 3.6 million training reviews and 400k testing reviews. The is built using 80k reviews and testing is done on 20k reviews. Ensembling Learning (VotingClassifier) is used to train model with 5 different Classifiers giving accuracy of 87%. __[Dataset](https://www.kaggle.com/bittlingmayer/amazonreviews)__
 
 ## Data Analysis and Visualisation
+
+##### Tools: Pandas, Numpy, Seaborn, Matplotlib, Plotly
 
 ### 1. __[911 Calls - Exploratory Data Analysis](https://github.com/kvborkar100/Data_Science_Portfolio/blob/master/911%20Calls%20EDA%20.ipynb)__
 Exploratory Data Analysis of the 911 calls dataset hosted on Kaggle. Demonstrates extraction of useful features from different variables.
@@ -20,7 +22,8 @@ Exploratory Data Analysis of the 911 calls dataset hosted on Kaggle. Demonstrate
 Complete Data Analysis of dataset containing more than 24 milion rows for speed testcarried out in different states in India with diffrerent technologies. Dataset is obtained from __[Open Government Data (OGD) Platform India](https://data.gov.in/)__<br>
 You can find this dataset __[Here](https://data.gov.in/catalog/myspeed-crowdsourced-mobile-data-speeds)__
 
-Tools: Pandas, Numpy, Seaborn, Matplotlib, Plotly
+### 3. Soccer Data Analysis
+This analysis is my minor project for course Python for Data science UCSanDiego edX. I have used an open dataset from Kaggle. This __[European Soccer Database](https://www.kaggle.com/hugomathien/soccer)__ has more than 25,000 matches and more than 10,000 players for European professional soccer seasons from 2008 to 2016.I have used only players table to get a specific insight from data.
 
 ## Kaggle Kernels
 
