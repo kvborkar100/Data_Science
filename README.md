@@ -8,6 +8,8 @@ This portfolio is a compilation of notebooks which I created for data analysis o
 A phishing website detector(webapp) based on Random Forest algorithm. User have to enter the URL and,then the features from the URL such as alexa ranking, URL length,Domain, sub domain etc, total 27 features are extracted from URL. Then machine Learning model(Random Forest Classifier) will try to classify it into Phishing, Benign, Suspecious category. i have used dataset from UCI machine Learning Repository.It is available [here](https://archive.ics.uci.edu/ml/datasets/phishing+websites).
 
 Tools : Python, scikit-learn, matplotlib, Django
+### 2. __[Amazon Reviews Sentiment Analysis](https://github.com/kvborkar100/Data_Science_Portfolio/tree/master/Sentiment%20Analysis%20Amazon%20Reviews)__
+Sentiment analysis for Amazon reviews is done using the reviews obtained from users about different products on amazon.com. The dataset consist of 3.6 million training reviews and 400k testing reviews. The is built using 80k reviews and testing is ddone on 20k reviews. Ensembling Learning (VotingClassifier) is used to train model with 5 different Classifiers giving accuracy of 87%. __[Dataset](https://www.kaggle.com/bittlingmayer/amazonreviews)__
 
 ## Data Analysis and Visualisation
 
