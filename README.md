@@ -36,6 +36,9 @@ Big Mart Sales Predictions data set contains data for 1559 products across 10 st
 ### 3. House Prices: Advanced Regression Techniques
 House Prices: Advanced Regression Techniques is the knowledge competition on Kaggle. Thedataset contains many large number of features.This dataset has given me opportunity for feature transformation and data visualization. __[Here](https://www.kaggle.com/kvborkar100/house-prices-prediction)__ is my kernel
 
+### 4.Digit Recogninzer
+A classic handwritten digit recogninzer competition on Kaggle. built a CNN using keras to identify digits. The model gave 99.58% accuracy on public leaderboard with ranking 296 Top 12%. __[Kernel](https://www.kaggle.com/kvborkar100/digit-recognizer)__
+
 ## Machine Learning
 
 ### 1. __[Restaurant Reviews classification using Natural Language processing](https://github.com/kvborkar100/Data_Science_Portfolio/blob/master/Restaurant%20Reviews%20classification%20using%20NLP.ipynb)__
@@ -48,3 +51,7 @@ In this project I have built a regression model to predict the score of a beer b
 ### 3. __[Multiclass classification - to predict damage to building](https://github.com/kvborkar100/Data_Science_Portfolio/blob/master/Predict%20Damage%20to%20building.ipynb)__
 In this problem I have built a model that can predict the extent of damage that has been done to a building after an earthquake. it is a multiclass classification problem. Dataset is available __[here](https://www.hackerearth.com/challenge/competitive/machine-learning-challenge-6-1/machine-learning/predict-the-energy-used-612632a9-3f496e7f/)__
 
+## Deep Learning
+
+### 1. __[Apparel Recognintion Analytics Vidhya]()__
+Apparel classification problem on Analytics vidhya. The model is built using keras with 92.99% accuracy.
