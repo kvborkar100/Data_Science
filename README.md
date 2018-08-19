@@ -53,5 +53,5 @@ In this problem I have built a model that can predict the extent of damage that 
 
 ## Deep Learning
 
-### 1. __[Apparel Recognintion Analytics Vidhya]()__
+### 1. __[Apparel Recognintion Analytics Vidhya](https://github.com/kvborkar100/Data_Science_Portfolio/blob/master/Identify%20Apparel.ipynb)__
 Apparel classification problem on Analytics vidhya. The model is built using keras with 92.99% accuracy.
